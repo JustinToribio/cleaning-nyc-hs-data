@@ -54,4 +54,6 @@ Project Organization
 
 --------
 
+**MAKE SURE YOU KEEP THIS SAME FILE STRUCTURE, OR THE FILE REFERENCES WILL BREAK!!**
+
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
