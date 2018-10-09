@@ -56,4 +56,7 @@ Project Organization
 
 **MAKE SURE YOU KEEP THIS SAME FILE STRUCTURE, OR THE FILE REFERENCES WILL BREAK!!**
 
+**All of the data is included, however you can also search for and download them from here: https://opendata.cityofnewyork.us/data/**
+    **Confirm you can actually find each data file at that url**
+
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
