@@ -1,7 +1,5 @@
-# Is the SAT unfair?
-==============================
-
-### Cleaning NYC high school data to start finding the answer  
+# Is the SAT unfair?  Cleaning NYC high school data to start finding the answer
+==============================  
 
 # Goal of this project
 The goal of this project is to clean and consolidate several datasets relating to the SAT (Scholastic Aptitude Test) and New York City (NYC) high schools. The final cleaned dataset will be used in separate projects to explore if the SAT is unfair to particular groups of students. The annual SAT is used by U.S. colleges and universities to determine which students to admit into their programs.  
@@ -16,7 +14,7 @@ We will start by exploring each of the datasets to understand the information th
 * Do not alter the folder/file structure or the file references in the Jupyter Notebook will break.
 
 ### Make sure you have the "conda" package manager installed  
-* If you don't, follow the instructions [here](https://conda.io/docs/user-guide/install/windows.html?highlight=conda).
+* If you don't, follow the instructions [here](https://conda.io/docs/user-guide/install/windows.html).
 
 ### Reproduce the analysis environment and launch the Jupyter Notebook
 * From the command line:
@@ -33,8 +31,6 @@ We will start by exploring each of the datasets to understand the information th
 # Project Organization
 ------------
 
-    ├── LICENSE
-    ├── README.md          <- The top-level README for users of this project.
     ├── data
     │   ├── processed      <- The final cleaned data set produced by running this project.
     │   └── raw            <- The original, immutable data dump.
@@ -45,6 +41,9 @@ We will start by exploring each of the datasets to understand the information th
     │
     ├── references         <- Data dictionaries.
     │
+    ├── .gitignore         <- Files and folders for Git to ignore tracking.
+    ├── LICENSE
+    ├── README.md          <- The top-level README for users of this project.    
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment.
                               Generated with `conda list -e > requirements.txt`.
 
