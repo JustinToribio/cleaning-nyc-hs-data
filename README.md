@@ -1,4 +1,5 @@
-# Is the SAT unfair?  Cleaning NYC high school data to start finding the answer
+# Is the SAT unfair?  
+### Cleaning NYC high school data to start finding the answer
 ==============================  
 
 # Goal of this project
