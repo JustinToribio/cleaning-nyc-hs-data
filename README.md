@@ -15,7 +15,7 @@ We will start by exploring each of the datasets to understand the information th
 * Do not alter the folder/file structure or the file references in the Jupyter Notebook will break.
 
 ### Make sure you have the "conda" package manager installed  
-* If you don't, follow the instructions [here](https://conda.io/docs/user-guide/install/windows.html).
+* If you don't, follow the instructions [here](https://conda.io/docs/user-guide/install/index.html).
 
 ### Reproduce the analysis environment and launch the Jupyter Notebook
 * From the command line:
