@@ -1,62 +1,52 @@
-Cleaning and Analyzing NYC High School Data
+# Is the SAT unfair?
 ==============================
 
-Cleaning and analyzing NYC high school data
+### Cleaning NYC high school data to start finding the answer  
 
-Project Organization
+# Goal of this project
+The goal of this project is to clean and consolidate several datasets relating to the SAT (Scholastic Aptitude Test) and New York City (NYC) high schools. The final cleaned dataset will be used in separate projects to explore if the SAT is unfair to particular groups of students. The annual SAT is used by U.S. colleges and universities to determine which students to admit into their programs.  
+
+# Approach
+We will start by exploring each of the datasets to understand the information they contain and how they can be consolidated. Based on what we learn we will then clean the datasets to make them ready for further analysis and modeling (i.e. correcting data types and errors, removing unnecessary characters and columns, filling in missing values etc...). Finally, we will consolidate all of the data into a single cleaned dataset and export it to a csv file that is ready to use for further exploratory data analysis, visualization and predictive modeling.  
+
+# Installing and running the project  
+
+### Download the data  
+* Clone this repo to your computer.  
+* Do not alter the folder/file structure or the file references in the Jupyter Notebook will break.
+
+### Make sure you have the "conda" package manager installed  
+* If you don't, follow the instructions [here](https://conda.io/docs/user-guide/install/windows.html?highlight=conda).
+
+### Reproduce the analysis environment and launch the Jupyter Notebook
+* From the command line:
+* Reproduce the analysis environment: `conda create --name env --file requirements.txt`.  
+* Activate the environment: `source activate env`.  
+* Launch the Jupyter Notebook: `jupyter notebook notebooks/1.0-jt-clean-nyc-hs-data.ipynb`.
+
+### Run the Jupyter Notebook
+* From the Jupyter Notebook:  
+* To run each cell one at a time: click `Run` in the top control panel or press `Shift + Enter`.
+* To run all of the cells: click `Kernel` in the menu bar and then `Restart & Run All`.
+* After the last code cell is run, the final cleaned dataset will be exported to a csv file named "nyc_hs_data_clean.csv" in the `data/processed` folder of this project.
+
+# Project Organization
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md          <- The top-level README for users of this project.
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   ├── processed      <- The final cleaned data set produced by running this project.
     │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jt-initial-data-exploration`.
+    │                         `1.0-jt-clean-nyc-hs-data`.
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    ├── references         <- Data dictionaries.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment.
+                              Generated with `conda list -e > requirements.txt`.
 
 
 --------
-
-**MAKE SURE YOU KEEP THIS SAME FILE STRUCTURE, OR THE FILE REFERENCES WILL BREAK!!**
-
-**All of the data is included, however you can also search for and download them from here: https://opendata.cityofnewyork.us/data/**
-    **Confirm you can actually find each data file at that url**
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
