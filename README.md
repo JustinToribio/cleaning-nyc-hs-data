@@ -18,9 +18,10 @@ We will start by exploring each of the datasets to understand the information th
 * If you don't, follow the instructions [here](https://conda.io/docs/user-guide/install/index.html).
 
 ### Reproduce the analysis environment and launch the Jupyter Notebook
-* From the command line:
+* From the command line, run the following commands:  
 * Reproduce the analysis environment: `conda create --name env --file requirements.txt`.  
 * Activate the environment: `source activate env`.  
+* Make sure you are in the "cleaning-nyc-hs-data" working directory.
 * Launch the Jupyter Notebook: `jupyter notebook notebooks/1.0-jt-clean-nyc-hs-data.ipynb`.
 
 ### Run the Jupyter Notebook
