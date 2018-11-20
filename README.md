@@ -10,25 +10,25 @@ We will start by exploring each of the datasets to understand the information th
 
 ## Installing and running the project  
 
-### Download the data  
+### Download the project  
 * Clone this repo to your computer.  
 * Do not alter the folder/file structure or the file references in the Jupyter Notebook will break.
 
-### Make sure you have the "conda" package manager installed  
+### Make sure you have the `conda` package manager installed  
 * If you don't, follow the instructions [here](https://conda.io/docs/user-guide/install/index.html).
 
 ### Reproduce the analysis environment and launch the Jupyter Notebook
-* From the command line, run the following commands:  
+* From the command line, make sure you are in the `/cleaning-nyc-hs-data` working directory.  
+* Run the following commands:  
 * Reproduce the analysis environment: `conda create --name env --file requirements.txt`.  
 * Activate the environment: `source activate env`.  
-* Make sure you are in the `/cleaning-nyc-hs-data` working directory.
 * Launch the Jupyter Notebook: `jupyter notebook notebooks/1.0-jt-clean-nyc-hs-data.ipynb`.
 
 ### Run the Jupyter Notebook
-* From the Jupyter Notebook:  
+* From the Jupyter Notebook `1.0-jt-clean-nyc-hs-data.ipynb`:  
 * To run each cell one at a time: click `Run` in the top control panel or press `Shift + Enter`.
 * To run all of the cells: click `Kernel` in the menu bar and then `Restart & Run All`.
-* After the last code cell is run, the final cleaned dataset will be exported to a csv file named "nyc_hs_data_clean.csv" in the `data/processed` folder of this project.
+* After the last code cell is run, the final cleaned dataset will be exported to a csv file named `nyc_hs_data_clean.csv` in the `data/processed` folder of this project.
 
 ## Project Organization
 ------------
@@ -38,8 +38,8 @@ We will start by exploring each of the datasets to understand the information th
     │   └── raw            <- The original, immutable data dump.
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jt-clean-nyc-hs-data`.
+    │                         the creator's initials, and a short "-" delimited description, e.g.
+    │                         "1.0-jt-clean-nyc-hs-data".
     │
     ├── references         <- Data dictionaries.
     │
@@ -47,7 +47,7 @@ We will start by exploring each of the datasets to understand the information th
     ├── LICENSE
     ├── README.md          <- The top-level README for users of this project.    
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment.
-                              Generated with `conda list -e > requirements.txt`.
+                              Generated with "conda list -e > requirements.txt".
 
 
 --------
