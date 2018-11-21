@@ -8,6 +8,11 @@ The goal of this project is to clean and consolidate several datasets relating t
 ## Approach
 We will start by exploring each of the datasets to understand the information they contain and how they can be consolidated. Based on what we learn we will then clean the datasets to make them ready for further analysis and modeling (i.e. correcting data types and errors, removing unnecessary characters and columns, filling in missing values etc...). Finally, we will consolidate all of the data into a single cleaned dataset and export it to a csv file that is ready to use for further exploratory data analysis, visualization and predictive modeling.  
 
+## Viewing the project  
+For proper rendering, I recommend viewing the project in nbviewer [here](https://nbviewer.jupyter.org/github/JustinToribio/cleaning-nyc-hs-data/blob/master/notebooks/1.0-jt-clean-nyc-hs-data.ipynb).  
+
+Alternatively, you can view the project directly in GitHub by going to the `notebooks` folder of this repository.  However, there are some rendering issues when viewing Jupyter Notebooks in GitHub.  
+
 ## Installing and running the project  
 
 ### Download the project  
