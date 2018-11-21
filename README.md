@@ -16,15 +16,15 @@ Alternatively, you can view the project directly in GitHub by going to the `note
 ## Installing and running the project  
 
 ### Download the project  
-* Clone this repo to your computer.  
+* Clone or download this repository to your computer.  
 * Do not alter the folder/file structure or the file references in the Jupyter Notebook will break.
 
 ### Make sure you have the `conda` package manager installed  
 * If you don't, follow the instructions [here](https://conda.io/docs/user-guide/install/index.html).
 
 ### Reproduce the analysis environment and launch the Jupyter Notebook
-* From the command line, make sure you are in the `/cleaning-nyc-hs-data` working directory.  
-* Run the following commands:  
+* From the command line, run the following commands:    
+* Make sure you are in the parent directory of this repository (i.e. `/cleaning-nyc-hs-data`, `/cleaning-nyc-hs-data-master` etc..., depending on what you named it when you cloned/downloaded it): `cd <path-to-directory>`  
 * Reproduce the analysis environment: `conda create --name env --file requirements.txt`.  
 * Activate the environment: `source activate env`.  
 * Launch the Jupyter Notebook: `jupyter notebook notebooks/1.0-jt-clean-nyc-hs-data.ipynb`.
