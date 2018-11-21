@@ -24,7 +24,7 @@ Alternatively, you can view the project directly in GitHub by going to the `note
 
 ### Reproduce the analysis environment and launch the Jupyter Notebook
 * From the command line, run the following commands:    
-* Make sure you are in the parent directory of this repository (i.e. `/cleaning-nyc-hs-data`, `/cleaning-nyc-hs-data-master` etc..., depending on what you named it when you cloned/downloaded it): `cd <path-to-directory>`  
+* Make sure you are in the parent directory of this repository (i.e. "/cleaning-nyc-hs-data", "/cleaning-nyc-hs-data-master" etc..., depending on what you named it when you cloned/downloaded it): `cd <path-to-directory>`  
 * Reproduce the analysis environment: `conda create --name env --file requirements.txt`.  
 * Activate the environment: `source activate env`.  
 * Launch the Jupyter Notebook: `jupyter notebook notebooks/1.0-jt-clean-nyc-hs-data.ipynb`.
