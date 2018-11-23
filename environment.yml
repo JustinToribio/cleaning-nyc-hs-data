@@ -1,4 +1,4 @@
-name: nyc_hs_data
+name: environment
 channels:
   - <unknown>
   - conda-forge
