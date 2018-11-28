@@ -1,0 +1,11 @@
+name: proj_env_3
+channels:
+  - cimcb
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - knnimpute
+  - numpy
+  - pandas
+  - python=3.7
