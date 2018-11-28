@@ -16,7 +16,7 @@ Alternatively, you can view the project directly in GitHub by going to the `note
 ## Installing and running the project  
 
 ### Download the project  
-* Download or clone this repository to your computer  
+* Download and extract, or clone this repository to your computer  
 * Do not alter the folder/file structure or the file references in the Jupyter Notebook will break
 
 ### Make sure you have the `conda` package manager installed  
