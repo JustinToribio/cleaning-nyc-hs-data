@@ -23,7 +23,7 @@ Alternatively, you can view the project directly in GitHub by going to the `"not
 * Do not alter the folder/file structure or the file references in the Jupyter Notebook will break
 
 ### Make sure you have the `conda` package manager installed  
-* If you don't already, follow the instructions [here](https://conda.io/docs/user-guide/install/index.html)
+* If you don't already, follow the instructions [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
 
 ### Reproduce the project environment and launch the Jupyter Notebook
 * From your computer's command line interface, run the following commands:    
