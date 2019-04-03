@@ -38,7 +38,7 @@ Alternatively, you can view the project directly in GitHub by going to the `"not
 * From the Jupyter Notebook `"1.0-jt-clean-nyc-hs-data.ipynb"`:  
     * To run each cell one at a time: click `Run` in the top control panel or press `Shift + Enter`
     * To run all of the cells: click `Kernel` in the menu bar and then `Restart & Run All`
-* After the last code cell is run, the final cleaned dataset will be exported to a csv file named `"nyc_hs_data_clean.csv"` in the `"data/processed"` folder of this project
+* After the last code cell is run, the final cleaned dataset will be exported to a csv file named `"nyc_hs_data_clean.csv"` in the `"data/processed"` folder of this project on your computer
 
 ## Project organization
 ------------
